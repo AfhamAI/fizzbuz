@@ -8,7 +8,10 @@ function fizz(x){
 else if(x%5 ==0){
     console.log("Buzz")
 }
+else{
+    console.log("Doesnt Occur")
+}
 
 }
 
-fizz(9)
+fizz(15)
